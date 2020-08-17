@@ -91,9 +91,42 @@
     text-transform: uppercase;
     border-radius: 32px;
 }
-
-
-
+/* Testimonial */
+.testimonial {
+    margin-top: 100px;
+}
+.testimonial h5 {
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 24px;
+}
+.testimonial figure img {
+    width: 60px;
+    margin: 20px 10px 10px;
+    opacity: 0.6;
+}
+.testimonial figure img.utama {
+    width: 90px;
+    opacity: 1;
+    margin-top: 5px;
+}
+.testimonial figure h5{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    color: #1c2c5d;
+}
+.testimonial figcaption {
+    text-align: center;
+    font-style: italic; 
+}
+ /* Footer */
+.footer p {
+     color: #acacac;
+     font-size: 18px;
+     margin-top: 100px;
+ }
 /* DESKTOP VERSION */
 @media (min-width: 992px) { 
     .navbar-brand,.nav-link{
@@ -123,5 +156,7 @@
     .Workingspace {
         text-align: left;
     }
-     
+    .testimonial h5 {
+        font-size: 32px;
+    }
  }
